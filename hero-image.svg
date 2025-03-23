@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" rx="10" fill="#1E1E1E"/>
+  <circle cx="300" cy="200" r="150" fill="#121212"/>
+  <path d="M300 50C371.797 50 430 108.203 430 180C430 251.797 371.797 310 300 310C228.203 310 170 251.797 170 180C170 108.203 228.203 50 300 50Z" stroke="#FF3636" stroke-width="5"/>
+  <path d="M390 180C390 230.258 349.258 271 300 271C250.742 271 210 230.258 210 180C210 129.742 250.742 89 300 89C349.258 89 390 129.742 390 180Z" fill="#1E1E1E" stroke="#FF3636" stroke-width="3"/>
+  <circle cx="300" cy="180" r="30" fill="#FF3636"/>
+  <path d="M320 120L340 140M260 120L240 140M320 240L340 220M260 240L240 220" stroke="#FF3636" stroke-width="3"/>
+  <path d="M300 50V80M300 280V310M170 180H200M400 180H430" stroke="#FF3636" stroke-width="3"/>
+  <path d="M250 120L220 90M350 120L380 90M250 240L220 270M350 240L380 270" stroke="#FF3636" stroke-width="2"/>
+  <text x="275" y="350" fill="#FFFFFF" font-family="Arial" font-size="18" text-anchor="middle">مَـســـافـــــــة</text>
+  <text x="320" y="375" fill="#FF3636" font-family="Arial" font-size="14" text-anchor="middle">مجتمع تقني</text>
+  <!-- Binary code background -->
+  <text x="100" y="30" fill="#333333" font-family="monospace" font-size="10">01001101 01100001 01110011 01100001 01100110 01100001 01101000</text>
+  <text x="100" y="45" fill="#333333" font-family="monospace" font-size="10">01010000 01110010 01101111 01100111 01110010 01100001 01101101</text>
+  <text x="100" y="60" fill="#333333" font-family="monospace" font-size="10">01000011 01101111 01100100 01100101 00100000 01010100 01100101</text>
+  <text x="400" y="330" fill="#333333" font-family="monospace" font-size="10">01000011 01111001 01100010 01100101 01110010 00100000 01000001</text>
+  <text x="400" y="345" fill="#333333" font-family="monospace" font-size="10">01001001 00100000 01010100 01100101 01100011 01101000 01101110</text>
+</svg>

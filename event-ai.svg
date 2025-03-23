@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#121212;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e1e1e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ai-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#21CBF3;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#bg-gradient)" />
+  
+  <!-- Abstract AI design -->
+  <g opacity="0.7">
+    <path d="M300,50 C400,50 480,130 480,230 C480,280 440,320 390,320 C340,320 300,280 300,230 C300,180 260,140 210,140 C160,140 120,180 120,230 C120,280 160,320 210,320 L390,320" stroke="#2196F3" stroke-width="3" fill="none"/>
+    
+    <circle cx="210" cy="230" r="20" fill="url(#ai-gradient)" />
+    <circle cx="300" cy="230" r="20" fill="url(#ai-gradient)" />
+    <circle cx="390" cy="230" r="20" fill="url(#ai-gradient)" />
+    
+    <circle cx="255" cy="175" r="15" fill="url(#ai-gradient)" />
+    <circle cx="345" cy="175" r="15" fill="url(#ai-gradient)" />
+    
+    <line x1="210" y1="230" x2="255" y2="175" stroke="#2196F3" stroke-width="2" />
+    <line x1="300" y1="230" x2="255" y2="175" stroke="#2196F3" stroke-width="2" />
+    <line x1="300" y1="230" x2="345" y2="175" stroke="#2196F3" stroke-width="2" />
+    <line x1="390" y1="230" x2="345" y2="175" stroke="#2196F3" stroke-width="2" />
+  </g>
+  
+  <!-- Binary code background -->
+  <g opacity="0.1">
+    <text x="30" y="30" font-family="monospace" font-size="10" fill="#ffffff">01001000 01000001 01000011 01001011 01000001 01010100 01001000 01001111 01001110</text>
+    <text x="30" y="50" font-family="monospace" font-size="10" fill="#ffffff">01000001 01001001 00100000 01010100 01000101 01000011 01001000 01001110 01001111</text>
+    <text x="30" y="280" font-family="monospace" font-size="10" fill="#ffffff">01001101 01000001 01000011 01001000 01001001 01001110 01000101 00100000 01001100</text>
+  </g>
+</svg>

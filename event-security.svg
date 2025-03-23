@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#121212;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e1e1e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="security-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#E040FB;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#bg-gradient)" />
+  
+  <!-- Security Shield -->
+  <g opacity="0.9">
+    <path d="M300,50 L400,80 C400,180 370,240 300,280 C230,240 200,180 200,80 L300,50Z" fill="none" stroke="url(#security-gradient)" stroke-width="4" />
+    
+    <!-- Lock icon -->
+    <rect x="275" y="140" width="50" height="40" rx="5" fill="url(#security-gradient)" />
+    <circle cx="300" cy="140" r="25" fill="none" stroke="#E040FB" stroke-width="4" />
+    <path d="M285,140 L285,125 C285,115 315,115 315,125 L315,140" stroke="#ffffff" stroke-width="3" fill="none" />
+    <circle cx="300" cy="160" r="5" fill="#ffffff" />
+  </g>
+  
+  <!-- Background elements -->
+  <g opacity="0.2">
+    <!-- Binary codes -->
+    <text x="50" y="40" font-family="monospace" font-size="8" fill="#ffffff">01010011 01000101 01000011 01010101 01010010 01001001 01010100 01011001</text>
+    <text x="400" y="40" font-family="monospace" font-size="8" fill="#ffffff">01000011 01011001 01000010 01000101 01010010</text>
+    <text x="100" y="270" font-family="monospace" font-size="8" fill="#ffffff">01000110 01001001 01010010 01000101 01010111 01000001 01001100 01001100</text>
+    
+    <!-- Connection lines -->
+    <line x1="100" y1="100" x2="200" y2="100" stroke="#E040FB" stroke-width="1" />
+    <line x1="150" y1="120" x2="200" y2="120" stroke="#E040FB" stroke-width="1" />
+    <line x1="120" y1="140" x2="200" y2="140" stroke="#E040FB" stroke-width="1" />
+    <line x1="170" y1="160" x2="200" y2="160" stroke="#E040FB" stroke-width="1" />
+    
+    <line x1="500" y1="100" x2="400" y2="100" stroke="#E040FB" stroke-width="1" />
+    <line x1="450" y1="120" x2="400" y2="120" stroke="#E040FB" stroke-width="1" />
+    <line x1="480" y1="140" x2="400" y2="140" stroke="#E040FB" stroke-width="1" />
+    <line x1="430" y1="160" x2="400" y2="160" stroke="#E040FB" stroke-width="1" />
+  </g>
+</svg>

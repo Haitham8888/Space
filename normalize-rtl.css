@@ -1,0 +1,68 @@
+/*! normalize-rtl.css v1.0.0 | MIT License | github.com/csstools/normalize-rtl.css */
+
+/* تضبيط الاتجاه والمحاذاة للغة العربية */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تبديل اليسار واليمين للعناصر المطلقة والثابتة */
+[dir="rtl"] .left,
+[dir="rtl"] .right {
+    transform: scaleX(-1);
+}
+
+/* تصحيح محاذاة النصوص */
+[dir="rtl"] h1, 
+[dir="rtl"] h2, 
+[dir="rtl"] h3, 
+[dir="rtl"] h4, 
+[dir="rtl"] h5, 
+[dir="rtl"] h6,
+[dir="rtl"] p,
+[dir="rtl"] ul,
+[dir="rtl"] ol,
+[dir="rtl"] dl {
+    text-align: right;
+}
+
+/* تصحيح الهوامش والحشوات */
+[dir="rtl"] .mr-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+[dir="rtl"] .ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+[dir="rtl"] .pr {
+    padding-left: var(--spacing-md);
+    padding-right: 0;
+}
+
+[dir="rtl"] .pl {
+    padding-right: var(--spacing-md);
+    padding-left: 0;
+}
+
+/* تصحيح رموز المحتوى */
+[dir="rtl"] .arrow-left:before {
+    content: "\f054"; /* تغيير رمز السهم */
+}
+
+[dir="rtl"] .arrow-right:before {
+    content: "\f053"; /* تغيير رمز السهم */
+}
+
+/* تصحيح محاذاة الأيقونات داخل العناصر */
+[dir="rtl"] .input-icon {
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+[dir="rtl"] .input-icon-right {
+    padding-left: 40px;
+    padding-right: 10px;
+}
